@@ -19,7 +19,7 @@ void countChar(const char* str, int& vowelCount, int& consonantCount) {
         char ch = toLower(*p);
 
         if (ch >= 'a' && ch <= 'z') {
-            if (ch == 'a',  ch == 'e',  ch == 'i',  ch == 'o', ch == 'u') {
+            if (ch == 'a'||  ch == 'e'|| ch == 'i' ||  ch == 'o' || ch == 'u') {
                 vowelCount++;
             }else {
                 consonantCount++;
